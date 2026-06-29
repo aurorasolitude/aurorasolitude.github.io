@@ -201,6 +201,7 @@
     renderTimeline("education-list", pageData.education);
     renderTimeline("experience-list", pageData.experience);
     renderPublications("conference-paper-list", pageData.conferencePapers);
+    renderPublications("preprint-list", pageData.preprints);
     renderPublications("technical-report-list", pageData.technicalReports);
     renderAwards(pageData.awards);
     document.getElementById("last-updated").textContent = siteData.lastUpdated || new Date().toISOString().slice(0, 10);

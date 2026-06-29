@@ -12,11 +12,12 @@
 - `education`: 教育经历。当前模板已经按硕士生写法预留。
 - `experience`: 实习、科研或工作经历。
 - `conferencePapers`: 会议论文。每篇文章的 `links` 可以放 arXiv、PDF、Code、Project Page 等链接。
-- `technicalReports`: 技术报告、项目报告或预印本。
+- `preprints`: 预发表论文。
+- `technicalReports`: 技术报告、项目报告。
 - `awards`: 奖项、奖学金、竞赛荣誉。
 - `news`: 近期动态。
 
-新增会议论文时，分别在 `languages.zh.conferencePapers` 和 `languages.en.conferencePapers` 数组里复制一项再修改即可。新增技术报告时，对应修改 `technicalReports`。
+新增会议论文时，分别在 `languages.zh.conferencePapers` 和 `languages.en.conferencePapers` 数组里复制一项再修改即可。新增预发表论文时修改 `preprints`，新增技术报告时修改 `technicalReports`。
 
 ```js
 {

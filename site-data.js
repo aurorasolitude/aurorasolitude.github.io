@@ -30,6 +30,7 @@ window.siteData = {
       sectionExperience: "实习与研究经历",
       sectionPublications: "发表文章",
       conferencePapers: "会议论文",
+      preprints: "预发表",
       technicalReports: "技术报告",
       sectionAwards: "所获奖项",
       sectionContact: "联系方式",
@@ -49,6 +50,7 @@ window.siteData = {
       sectionExperience: "Internships & Research Experience",
       sectionPublications: "Publications",
       conferencePapers: "Conference Papers",
+      preprints: "Preprints",
       technicalReports: "Technical Reports",
       sectionAwards: "Awards",
       sectionContact: "Contact",
@@ -63,8 +65,8 @@ window.siteData = {
       profile: {
         name: "张天舒",
         shortName: "张天舒",
-        title: "清华大学软件学院硕士研究生",
-        affiliation: "清华大学软件学院（THSS）",
+        title: "多模态大模型研究",
+        affiliation: "清华大学",
         bio: "我即将在清华大学软件学院攻读硕士学位，导师为闻立杰老师；此前在清华大学软件学院获得学士学位。我的研究兴趣主要聚焦于多模态大模型，尤其关注如何提升模型的多模态理解能力。",
         interests: ["多模态大模型", "多模态理解", "大语言模型"],
         contactNote: "欢迎就研究合作、实习机会或学术交流联系我。"
@@ -136,7 +138,10 @@ window.siteData = {
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2509.00723" }
           ]
-        },
+        }
+      ],
+
+      preprints: [
         {
           title: "Do We Really Need External Tools to Mitigate Hallucinations? SIRA: Shared-Prefix Internal Reconstruction of Attribution",
           authors: [
@@ -221,8 +226,8 @@ window.siteData = {
       profile: {
         name: "Tianshu Zhang",
         shortName: "Tianshu Zhang",
-        title: "Incoming M.S. Student, School of Software, Tsinghua University",
-        affiliation: "School of Software, Tsinghua University (THSS)",
+        title: "Multimodal Large Language Models",
+        affiliation: "Tsinghua University",
         bio: "I am an incoming M.S. student at the School of Software, Tsinghua University, advised by Prof. Lijie Wen. I received my B.S. degree from the same school. My research interests focus on multimodal large language models, with a particular emphasis on improving multimodal understanding.",
         interests: ["Multimodal LLMs", "Multimodal Understanding", "Large Language Models"],
         contactNote: "Feel free to contact me about research collaboration, internship opportunities, or academic exchange."
@@ -294,7 +299,10 @@ window.siteData = {
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2509.00723" }
           ]
-        },
+        }
+      ],
+
+      preprints: [
         {
           title: "Do We Really Need External Tools to Mitigate Hallucinations? SIRA: Shared-Prefix Internal Reconstruction of Attribution",
           authors: [
