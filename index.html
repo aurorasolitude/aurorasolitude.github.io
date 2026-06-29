@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academic Homepage</title>
+    <meta
+      name="description"
+      content="Academic personal homepage template for research profile, publications, education, experience, awards, and contact links."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" data-field="shortName">Academic Homepage</a>
+      <div class="header-actions">
+        <nav class="nav" aria-label="Page navigation">
+          <a href="#about" data-label="navAbout">About</a>
+          <a href="#education" data-label="navEducation">Education</a>
+          <a href="#experience" data-label="navExperience">Experience</a>
+          <a href="#publications" data-label="navPublications">Publications</a>
+          <a href="#awards" data-label="navAwards">Awards</a>
+          <a href="#contact" data-label="navContact">Contact</a>
+        </nav>
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="profile-section" id="about">
+        <div class="profile-media">
+          <img id="profile-photo" src="assets/avatar-placeholder.svg" alt="Profile photo">
+        </div>
+        <div class="profile-copy">
+          <p class="eyebrow" data-field="affiliation">Your Affiliation</p>
+          <h1 data-field="name">Your Name</h1>
+          <p class="title-line" data-field="title">Master's Student / Researcher</p>
+          <p class="bio" data-field="bio">
+            Add a concise academic introduction here.
+          </p>
+          <div class="research-tags" id="research-interests" aria-label="Research interests"></div>
+          <div class="profile-actions" id="profile-links"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="news-section">
+        <div class="section-heading">
+          <p class="section-kicker">Updates</p>
+          <h2 data-label="sectionNews">Recent Updates</h2>
+        </div>
+        <div class="timeline compact" id="news-list"></div>
+      </section>
+
+      <section class="content-section" id="education">
+        <div class="section-heading">
+          <p class="section-kicker">Education</p>
+          <h2 data-label="sectionEducation">Education</h2>
+        </div>
+        <div class="timeline" id="education-list"></div>
+      </section>
+
+      <section class="content-section" id="experience">
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2 data-label="sectionExperience">Internships & Research Experience</h2>
+        </div>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <section class="content-section" id="publications">
+        <div class="section-heading">
+          <p class="section-kicker">Publications</p>
+          <h2 data-label="sectionPublications">Publications</h2>
+        </div>
+        <div class="publication-group">
+          <h3 class="subsection-title" data-label="conferencePapers">Conference Papers</h3>
+          <div class="publication-list" id="conference-paper-list"></div>
+        </div>
+        <div class="publication-group">
+          <h3 class="subsection-title" data-label="technicalReports">Technical Reports</h3>
+          <div class="publication-list" id="technical-report-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="awards">
+        <div class="section-heading">
+          <p class="section-kicker">Honors</p>
+          <h2 data-label="sectionAwards">Awards</h2>
+        </div>
+        <div class="award-grid" id="award-list"></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 data-label="sectionContact">Contact</h2>
+          <p data-field="contactNote">Feel free to contact me.</p>
+        </div>
+        <div class="contact-links" id="contact-links"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-field="footerName">Your Name</span>
+      <span><span data-label="lastUpdated">Last updated</span>: <time id="last-updated"></time></span>
+    </footer>
+
+    <script src="site-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
