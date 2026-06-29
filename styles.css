@@ -136,6 +136,11 @@ main {
   text-transform: uppercase;
 }
 
+.eyebrow:empty,
+.title-line:empty {
+  display: none;
+}
+
 h1,
 h2,
 h3,
