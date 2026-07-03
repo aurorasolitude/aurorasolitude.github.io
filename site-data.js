@@ -119,19 +119,6 @@ window.siteData = {
 
       conferencePapers: [
         {
-          title: "ICT: Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
-          authors: [
-            { text: "J Chen*, " },
-            { text: "T Zhang*", me: true },
-            { text: ", S Huang, Y Niu, L Zhang, L Wen, X Hu" }
-          ],
-          venue: "CVPR 2025, pp. 4209-4221",
-          status: "会议论文",
-          links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2411.15268" }
-          ]
-        },
-        {
           title: "OmniDPO: A Preference Optimization Framework to Address Omni-Modal Hallucination",
           authors: [
             { text: "J Chen*, " },
@@ -142,6 +129,19 @@ window.siteData = {
           status: "会议论文",
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2509.00723" }
+          ]
+        },
+        {
+          title: "ICT: Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
+          authors: [
+            { text: "J Chen*, " },
+            { text: "T Zhang*", me: true },
+            { text: ", S Huang, Y Niu, L Zhang, L Wen, X Hu" }
+          ],
+          venue: "CVPR 2025, pp. 4209-4221",
+          status: "会议论文",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2411.15268" }
           ]
         }
       ],
@@ -177,20 +177,6 @@ window.siteData = {
 
       technicalReports: [
         {
-          title: "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-          authors: [
-            { text: "W Hong, W Yu, ... " },
-            { text: "T Zhang", me: true },
-            { text: " (Contributor)", italic: true },
-            { text: ", ..." }
-          ],
-          venue: "Technical report, 2025",
-          status: "",
-          links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2507.01006" }
-          ]
-        },
-        {
           title: "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
           authors: [
             { text: "W Hong, X Gu, Z Pan, Z Yang, Y Wang, ... " },
@@ -202,6 +188,20 @@ window.siteData = {
           status: "",
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2604.26752" }
+          ]
+        },
+        {
+          title: "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          authors: [
+            { text: "W Hong, W Yu, ... " },
+            { text: "T Zhang", me: true },
+            { text: " (Contributor)", italic: true },
+            { text: ", ..." }
+          ],
+          venue: "Technical report, 2025",
+          status: "",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2507.01006" }
           ]
         }
       ],
@@ -298,19 +298,6 @@ window.siteData = {
 
       conferencePapers: [
         {
-          title: "ICT: Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
-          authors: [
-            { text: "J Chen*, " },
-            { text: "T Zhang*", me: true },
-            { text: ", S Huang, Y Niu, L Zhang, L Wen, X Hu" }
-          ],
-          venue: "CVPR 2025, pp. 4209-4221",
-          status: "Conference Paper",
-          links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2411.15268" }
-          ]
-        },
-        {
           title: "OmniDPO: A Preference Optimization Framework to Address Omni-Modal Hallucination",
           authors: [
             { text: "J Chen*, " },
@@ -321,6 +308,19 @@ window.siteData = {
           status: "Conference Paper",
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2509.00723" }
+          ]
+        },
+        {
+          title: "ICT: Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
+          authors: [
+            { text: "J Chen*, " },
+            { text: "T Zhang*", me: true },
+            { text: ", S Huang, Y Niu, L Zhang, L Wen, X Hu" }
+          ],
+          venue: "CVPR 2025, pp. 4209-4221",
+          status: "Conference Paper",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2411.15268" }
           ]
         }
       ],
@@ -356,20 +356,6 @@ window.siteData = {
 
       technicalReports: [
         {
-          title: "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-          authors: [
-            { text: "W Hong, W Yu, ... " },
-            { text: "T Zhang", me: true },
-            { text: " (Contributor)", italic: true },
-            { text: ", ..." }
-          ],
-          venue: "Technical report, 2025",
-          status: "",
-          links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2507.01006" }
-          ]
-        },
-        {
           title: "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
           authors: [
             { text: "W Hong, X Gu, Z Pan, Z Yang, Y Wang, ... " },
@@ -381,6 +367,20 @@ window.siteData = {
           status: "",
           links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2604.26752" }
+          ]
+        },
+        {
+          title: "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          authors: [
+            { text: "W Hong, W Yu, ... " },
+            { text: "T Zhang", me: true },
+            { text: " (Contributor)", italic: true },
+            { text: ", ..." }
+          ],
+          venue: "Technical report, 2025",
+          status: "",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2507.01006" }
           ]
         }
       ],
