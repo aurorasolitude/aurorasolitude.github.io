@@ -1,6 +1,6 @@
 window.siteData = {
   defaultLanguage: "zh",
-  lastUpdated: "2026-06-30",
+  lastUpdated: "2026-07-03",
 
   shared: {
     photo: "assets/profile.jpg",
@@ -74,6 +74,11 @@ window.siteData = {
 
       news: [
         {
+          date: "2026.07",
+          title: "🔥 新论文上线！",
+          description: "我们的论文 Efficient Spatio-Temporal Grounding with Multimodal Large Models via Second-Level Tracking and RL Verification 已发布在 arXiv。"
+        },
+        {
           date: "2026.06",
           title: "🔥 论文被 ECCV 2026 接收！",
           description: "我们的论文 VisWordBench: Bridging the Gap in Cross-modal Reasoning for Multimodal Large Language Models 被 ECCV 2026 接收。"
@@ -142,6 +147,19 @@ window.siteData = {
       ],
 
       preprints: [
+        {
+          title: "Efficient Spatio-Temporal Grounding with Multimodal Large Models via Second-Level Tracking and RL Verification",
+          authors: [
+            { text: "T Zhang", me: true },
+            { text: ", Y Wang, J Qi, L Wen" }
+          ],
+          venue: "arXiv preprint arXiv:2606.29023",
+          status: "预发表",
+          abstract: "使用 SFT 与 RL 验证显著提升多模态大模型的时空定位能力，使 9B 模型超越更大规模的强基线模型。",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2606.29023" }
+          ]
+        },
         {
           title: "Do We Really Need External Tools to Mitigate Hallucinations? SIRA: Shared-Prefix Internal Reconstruction of Attribution",
           authors: [
@@ -235,6 +253,11 @@ window.siteData = {
 
       news: [
         {
+          date: "2026.07",
+          title: "🔥 New paper released!",
+          description: "Our paper Efficient Spatio-Temporal Grounding with Multimodal Large Models via Second-Level Tracking and RL Verification is now available on arXiv."
+        },
+        {
           date: "2026.06",
           title: "🔥 Paper accepted to ECCV 2026!",
           description: "Our paper VisWordBench: Bridging the Gap in Cross-modal Reasoning for Multimodal Large Language Models was accepted to ECCV 2026."
@@ -303,6 +326,19 @@ window.siteData = {
       ],
 
       preprints: [
+        {
+          title: "Efficient Spatio-Temporal Grounding with Multimodal Large Models via Second-Level Tracking and RL Verification",
+          authors: [
+            { text: "T Zhang", me: true },
+            { text: ", Y Wang, J Qi, L Wen" }
+          ],
+          venue: "arXiv preprint arXiv:2606.29023",
+          status: "Preprint",
+          abstract: "This work uses SFT and RL verification to substantially improve spatio-temporal grounding with multimodal large models, enabling a 9B model to outperform much larger strong baselines.",
+          links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2606.29023" }
+          ]
+        },
         {
           title: "Do We Really Need External Tools to Mitigate Hallucinations? SIRA: Shared-Prefix Internal Reconstruction of Attribution",
           authors: [
