@@ -13,7 +13,7 @@ window.siteData = {
         style: "secondary"
       },
       { key: "github", label: { zh: "GitHub", en: "GitHub" }, url: "https://github.com/aurorasolitude", style: "secondary" },
-      { key: "cv", label: { zh: "简历", en: "CV" }, url: "assets/cv.pdf", style: "secondary" }
+      { key: "cv", label: { zh: "简历", en: "CV" }, url: "assets/cv.pdf?v=20260717", style: "secondary" }
     ]
   },
 
