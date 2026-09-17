@@ -1,6 +1,6 @@
 window.siteData = {
   defaultLanguage: "zh",
-  lastUpdated: "2026-07-03",
+  lastUpdated: "2026-09-17",
 
   shared: {
     photo: "assets/profile.jpg",
@@ -67,7 +67,7 @@ window.siteData = {
         shortName: "张天舒",
         title: "",
         affiliation: "",
-        bio: "我即将在清华大学软件学院攻读硕士学位，导师为闻立杰老师；此前在清华大学软件学院获得学士学位。我的研究兴趣主要聚焦于多模态大模型，尤其关注如何提升模型的多模态理解能力。",
+        bio: "我目前在清华大学软件学院攻读硕士学位，导师为闻立杰老师；此前在清华大学软件学院获得学士学位。我的研究兴趣主要聚焦于多模态大模型，尤其关注如何提升模型的多模态理解能力。",
         interests: ["多模态大模型", "多模态理解", "大语言模型"],
         contactNote: "欢迎就研究合作、实习机会或学术交流联系我。"
       },
@@ -246,7 +246,7 @@ window.siteData = {
         shortName: "Tianshu Zhang",
         title: "",
         affiliation: "",
-        bio: "I am an incoming M.S. student at the School of Software, Tsinghua University, advised by Prof. Lijie Wen. I received my B.S. degree from the same school. My research interests focus on multimodal large language models, with a particular emphasis on improving multimodal understanding.",
+        bio: "I am an M.S. student at the School of Software, Tsinghua University, advised by Prof. Lijie Wen. I received my B.S. degree from the same school. My research interests focus on multimodal large language models, with a particular emphasis on improving multimodal understanding.",
         interests: ["Multimodal LLMs", "Multimodal Understanding", "Large Language Models"],
         contactNote: "Feel free to contact me about research collaboration, internship opportunities, or academic exchange."
       },
